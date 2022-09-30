@@ -1,4 +1,5 @@
 import javax.swing.text.html.FormView;
+import java.util.Random;
 
 public class home_work_weak_one {
 
@@ -19,7 +20,7 @@ public class home_work_weak_one {
 
      //Answer-1:
 
-      /*Random random =new Random();
+      Random random =new Random();
 
       int puan =random.nextInt(100); //RANDOM DEĞER ÜRETME
             
@@ -39,7 +40,7 @@ public class home_work_weak_one {
 
         else if (70<puan && puan<101){ //AA ŞARTI
             System.out.println("Puanınızın Sayısal Değeri:"+puan+"  Harf karşılığı:AA");;
-        }*/
+        }
 
         //****************************************************************************************** */
 
@@ -52,9 +53,10 @@ public class home_work_weak_one {
           //Answer-1:
 
 
-         /* 
+
         for (int i = 3; i < 101; i++) {
             int sayac=0;
+            int toplam=0;
             
              for (int j = 2; j < i-1; j++) {
                  
@@ -68,6 +70,9 @@ public class home_work_weak_one {
 
             if(sayac==0){  //sayac kontrolu ileasallığını kontrol eder
                 System.out.println(i+" >>Sayısı Asalsayıdır");
+
+                toplam+=toplam;
+                System.out.println("Toplam="+toplam);
                 
             }
 
@@ -75,7 +80,7 @@ public class home_work_weak_one {
 
              
           }
-          */
+
 
           /******************************************************************* */
 
@@ -90,7 +95,7 @@ public class home_work_weak_one {
          //Answer-3:
 
 
-         /* 
+
 
         int genel_toplam=0;
         int üc_toplam=0;
@@ -107,7 +112,7 @@ public class home_work_weak_one {
             
          }
          //TÜM TOPLAMDANÜÇE BÖLÜNENLERİ ÇIKARINCA CEVAP ORTAYA CIKIYOR
-         System.out.println("TOPLAM= "+(genel_toplam-üc_toplam)); */  
+         System.out.println("TOPLAM= "+(genel_toplam-üc_toplam));
 
 
         /*************************************************************** */
@@ -132,8 +137,7 @@ public class home_work_weak_one {
 
     
 
-         /*  
-        Random random =new Random();     
+
 
         for (int j = 1; ; j++) {
 
@@ -147,7 +151,7 @@ public class home_work_weak_one {
 
             
         }
-        */
+
 
 
 
