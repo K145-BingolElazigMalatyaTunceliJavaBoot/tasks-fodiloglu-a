@@ -1,3 +1,5 @@
+package WeakOne;
+
 import javax.swing.text.html.FormView;
 import java.util.Random;
 

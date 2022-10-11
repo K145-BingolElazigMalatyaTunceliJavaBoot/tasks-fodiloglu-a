@@ -1,6 +1,4 @@
-package RentCarSys;
-
-import java.sql.SQLOutput;
+package WeakTwo.RentCarSys;
 
 public class Car {
     byte ID;

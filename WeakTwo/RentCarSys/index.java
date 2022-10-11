@@ -1,4 +1,4 @@
-package RentCarSys;
+package WeakTwo.RentCarSys;
 
 import java.util.Scanner;
 
