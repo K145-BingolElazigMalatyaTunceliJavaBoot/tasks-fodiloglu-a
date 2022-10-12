@@ -6,7 +6,7 @@ public abstract  class Fruit {
 
     private int storeHouse;
     private int price;
-    private int i=1;
+
 
     public Fruit(String name,  int storeHouse,int price,int Id) {
         this.name = name;
@@ -18,7 +18,7 @@ public abstract  class Fruit {
 
 
 
-    public void controlStoreHouse(double kg,User user,String name){
+    public void controlStoreHouse(double kg,User user,String name,int i){
 
          if (this.storeHouse<kg){
              System.out.println("We don't have enough products");
@@ -29,11 +29,12 @@ public abstract  class Fruit {
          }else {
              this.storeHouse-=kg;
 
-             String product=this.i+"-)"+this.name+"="+kg+"kg|"+this.price*kg+"tl";
+
+             String product=i+"-)"+this.name+"="+kg+"kg|"+this.price*kg+"tl";
              double money=kg*this.price;
              user.addCart(product);
              user.updateCase(money);
-             this.i++;
+
 
 
 

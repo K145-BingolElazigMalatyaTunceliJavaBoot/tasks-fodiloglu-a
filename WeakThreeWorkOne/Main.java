@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        int i=1;
 
         Scanner input=new Scanner(System.in);
 
@@ -35,6 +36,7 @@ public class Main {
         System.out.println("---------------------------");
 
         do {
+
             System.out.println("List of products");
 
             cherry.printProducst();
@@ -64,20 +66,23 @@ public class Main {
 
             switch (id) {
                 case 1:
-                    cherry.controlStoreHouse(kg, user, cherry.getName());
+                    cherry.controlStoreHouse(kg, user, cherry.getName(),i);
                     user.getCart();
+
                     break;
                 case 2:
-                    apple.controlStoreHouse(kg, user, cherry.getName());
+                    apple.controlStoreHouse(kg, user, cherry.getName(),i);
                     user.getCart();
                     break;
                 case 3:
-                    pear.controlStoreHouse(kg, user, cherry.getName());
+                    pear.controlStoreHouse(kg, user, cherry.getName(),i);
                     user.getCart();
                     break;
                 default:
                     System.out.println("Wrong Select!!!");
             }
+            i++;
+
 
 
 
