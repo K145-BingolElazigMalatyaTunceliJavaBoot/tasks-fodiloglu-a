@@ -1,5 +1,4 @@
-package WeakThreeWorkTwo;
-
+package Weak3.WeakThreeWorkTwo;
 import java.util.List;
 
 public abstract class Company{

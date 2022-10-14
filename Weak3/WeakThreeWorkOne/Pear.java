@@ -1,4 +1,4 @@
-package WeakThreeWorkOne;
+package Weak3.WeakThreeWorkOne;
 
 public class Pear extends Fruit{
     public Pear(String name ,int storeHouse,int price,int Id) {

@@ -1,4 +1,4 @@
-package WeakThreeWorkTwo;
+package Weak3.WeakThreeWorkTwo;
 
 public class User {
     private String userName;

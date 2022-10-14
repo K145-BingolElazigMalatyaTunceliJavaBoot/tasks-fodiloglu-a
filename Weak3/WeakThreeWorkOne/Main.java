@@ -1,4 +1,4 @@
-package WeakThreeWorkOne;
+package Weak3.WeakThreeWorkOne;
 
 import java.util.Scanner;
 

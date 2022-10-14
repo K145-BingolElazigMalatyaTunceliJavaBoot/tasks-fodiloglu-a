@@ -1,4 +1,4 @@
-package WeakThreeWorkOne;
+package Weak3.WeakThreeWorkOne;
 
 public abstract  class Fruit {
     private String  name;

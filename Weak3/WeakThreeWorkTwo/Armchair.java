@@ -1,4 +1,4 @@
-package WeakThreeWorkTwo;
+package Weak3.WeakThreeWorkTwo;
 //for fly company
 
 public abstract class Armchair   {
