@@ -1,6 +1,6 @@
 package WeakThreeWorkTwo;
 
-public class EconomicChair extends Armchair implements IProperties{
+public class EconomicChair extends Armchair  {
 
 
     public EconomicChair(String name, String nameCod, int armNum) {
